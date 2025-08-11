@@ -1,4 +1,5 @@
 # spec999.py by x0rnn, put players with 999 ping to spectator mode
+# line 7 is now idented properly
 
 import minqlx
 
