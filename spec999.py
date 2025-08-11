@@ -1,10 +1,10 @@
-#spec999.py by x0rnn, put players with 999 ping to spectator mode
+# spec999.py by x0rnn, put players with 999 ping to spectator mode
 
 import minqlx
 
 class spec999(minqlx.Plugin):
     def __init__(self):
-    self.add_command("spec999", self.cmd_spec999, 1)
+        self.add_command("spec999", self.cmd_spec999, 1)
 
     def cmd_spec999(self, player, msg, channel):
         for p in self.players():
